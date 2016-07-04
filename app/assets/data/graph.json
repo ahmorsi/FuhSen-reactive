@@ -1,0 +1,27 @@
+{
+  "nodes":[
+    {"name":"Elon Musk","type" : "PERSON"},
+    {"name":"Talulah Riley","type" : "PERSON"},
+    {"name":"USA","type" : "LOC"},
+    {"name":"Tesla Motors","type" : "ORG"},
+    {"name":"PayPal","type" : "ORG"},
+    {"name":"SpaceX","type" : "ORG"},
+    {"name":"OpenAI","type" : "ORG"},
+    {"name":"SolarCity","type" : "ORG"},
+    {"name" : "June 28, 1971","type" : "LITERAL"},
+    {"name" : "Elon Reeve Musk","type" : "LITERAL"},
+    {"name":"South Africa","type" : "LOC"}
+  ],
+  "links":[
+    {"source":0,"target":1,"label":"Married"},
+    {"source":0,"target":3,"label":"CEO"},
+    {"source":0,"target":4,"label":"Founded"},
+    {"source":0,"target":5,"label":"CEO"},
+    {"source":0,"target":6,"label":"Co-Chairman"},
+    {"source":0,"target":7,"label":"Chairman"},
+    {"source":0,"target":2,"label":"Lives in"},
+    {"source":0,"target":8,"label":"Born on"},
+    {"source":0,"target":9,"label":"Full Name"},
+    {"source":0,"target":10,"label":"Born in"}
+  ]
+}

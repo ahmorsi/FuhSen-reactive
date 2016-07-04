@@ -36,10 +36,14 @@ public class Application extends Controller {
         this.keyword = query;
         return ok(results.render());
     }
-
+    
     public Result getKeyword(){
         String json_res = "{ \"keyword\" : \""+this.keyword+"\" }";
         return ok(json_res);
+    }
+    
+         public Result details() {
+        return ok(details.render());
     }
 }
 

@@ -843,6 +843,8 @@ var PersonResultElement = React.createClass({
                         <div class="thumbnail">
                             <img src={"/assets/images/datasources/"+this.props.source+".png"} alt={"Information from "+this.props.source} height="45" width="45"/>
                         </div>
+                        <ShowDetailsBtn>
+                        </ShowDetailsBtn>
                     </div>
                 </div>
             </li>
@@ -885,4 +887,11 @@ var OrganizationResultElement = React.createClass({
     }
 });
 
+var ShowDetailsBtn = React.createClass({
+    render : function() {
+        return (
+          <span> <a href = "/details" target="_blank">Show Details</a> </span>  
+        );
+    }
+});
 React.render(<ContainerResults url="/keyword" pollInterval={200000}/>, document.getElementById('skeleton'));
